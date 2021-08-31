@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@900&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+#container-fluid{
+    background-color: #66BFBF;
+    text-align: center;
+}
+.cloud{
+    position: absolute;
+    right: 20%;
+    top: 20px;
+}
+
+.title{  
+    padding:10% 15% ;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150px;
+}
+.prog{
+    text-decoration: dotted underline;
+}
+
+.cloud2{
+    position: absolute;
+    left: 10%;
+}
+
+.header{
+    font-size: 100px;
+    padding-bottom: 3%;
+}
+
+.header2{
+    font-size:40px ;
+}
+
+
+#profile{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.prof{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.profile-header{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5% 5%;
+    color: #66BFBF;
+    font-weight: bolder;
+}
+.profile-description{
+    font-family: "Montserrat-thin",sans-serif;
+    font-weight: inherit;
+    line-height: 1.5;  
+}
+
+.line{
+    border: 3px solid #66BFBF;
+    width: 10%;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.skills{
+    text-align: center;
+    padding: 7% 25%;
+}
+
+
+.design{
+    text-align: left;
+    padding-top: 2%;
+}
+.design-color-headers{
+    color: #66BFBF;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+.design-font-style{
+    font-family: "Montserrat-thin",sans-serif;
+
+}
+
+.row{
+    padding: 5% 0;
+}
+
+.anime{
+    height: 200px;
+    width:200px;
+}
+
+.bottom-part{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+.touch{
+    padding: 5% 0;
+    color: #66BFBF;
+}
+
+.like{
+    color: #66BFBF;
+    padding-bottom: 3%;
+}
+
+.btn2{
+    border-radius:15px ;
+    padding: 5px 35px 10px;
+    background-image: linear-gradient(to bottom,rgb(84, 133, 238),#66BFBF );
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+.btn2:hover{
+    background-image: linear-gradient(to bottom,rgb(107, 140, 211),rgb(84, 228, 228) );
+    color: antiquewhite;
+}
+
+.top{
+    margin-top: 7%;
+}
+
+
+.footer{
+    padding: 20px 0 15px;
+    background-color: #66BFBF;
+    text-align: center;
+}
+.social-links{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px 10px;
+    
+}
+.social-links:hover{
+    color: #2fa3a3;
+}
+
+.copyright{
+    padding: 50px 0;
+    color: #fff;
+}
+
+@media (max-width:1085px) {
+   .mountain{
+       width: 80%;
+   }
+   .cloud{
+       right:10px;      
+   }
+   .cloud2{
+       left: 10px;
+       bottom: 38%;
+   }
+   .design{
+       padding: 5% 0;
+   }
+   .d{
+    margin-top: 6%;
+}
+.skills{
+    text-align: center;
+}
+
+.des{
+    margin-left: 10%;
+}
+}
